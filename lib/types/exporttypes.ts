@@ -1,3 +1,5 @@
-export interface InputRef{
-    reset: () => void;
-}
+export type Order = {
+    id: number;
+    customerName: string;
+    status: 'Pending' | 'Ready';
+  };
